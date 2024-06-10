@@ -35,9 +35,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(162, 69);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(96, 22);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 23);
+            this.button1.Size = new System.Drawing.Size(179, 50);
             this.button1.TabIndex = 0;
             this.button1.Text = "Отчет по книгам";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(162, 98);
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
+            this.button2.Location = new System.Drawing.Point(96, 78);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 23);
+            this.button2.Size = new System.Drawing.Size(179, 50);
             this.button2.TabIndex = 1;
             this.button2.Text = "Отчет по читателям";
             this.button2.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(162, 127);
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
+            this.button3.Location = new System.Drawing.Point(96, 134);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 23);
+            this.button3.Size = new System.Drawing.Size(179, 50);
             this.button3.TabIndex = 2;
             this.button3.Text = "Отчет по сотрудникам";
             this.button3.UseVisualStyleBackColor = true;
@@ -66,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(622, 369);
+            this.ClientSize = new System.Drawing.Size(1419, 542);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

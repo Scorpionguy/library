@@ -9,3 +9,4 @@ C:\Users\Fedor\source\repos\library\library\obj\Debug\library.csproj.GenerateRes
 C:\Users\Fedor\source\repos\library\library\obj\Debug\library.csproj.CoreCompileInputs.cache
 C:\Users\Fedor\source\repos\library\library\obj\Debug\library.exe
 C:\Users\Fedor\source\repos\library\library\obj\Debug\library.pdb
+C:\Users\Fedor\source\repos\library\library\obj\Debug\library.BooksDialog.resources

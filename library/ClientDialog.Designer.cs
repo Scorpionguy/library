@@ -85,9 +85,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 12);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(12, 8);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 13);
+            this.label3.Size = new System.Drawing.Size(151, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Выбрать тип отчета";
             // 
@@ -102,9 +103,10 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(214, 28);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 128);
+            this.button1.Size = new System.Drawing.Size(134, 128);
             this.button1.TabIndex = 7;
             this.button1.Text = "Сформировать отчет";
             this.button1.UseVisualStyleBackColor = true;
@@ -114,7 +116,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 194);
+            this.BackColor = System.Drawing.Color.LightGray;
+            this.ClientSize = new System.Drawing.Size(361, 194);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

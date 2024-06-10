@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooksDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BooksDialog.Designer.cs">
+      <DependentUpon>BooksDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClientDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClientDialog.Designer.cs">
       <DependentUpon>ClientDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDialog.Designer.cs">
+      <DependentUpon>EmployeeDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BooksDialog.resx">
+      <DependentUpon>BooksDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ClientDialog.resx">
       <DependentUpon>ClientDialog.cs</DependentUpon>
     </EmbeddedResource>
