@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace library
 {
-    public partial class Form1 : Form
+    public partial class ClientDialog : Form
     {
-        public Form1()
+        public ClientDialog()
         {
             InitializeComponent();
         }
@@ -20,11 +20,6 @@ namespace library
         private void button1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            new ClientDialog().ShowDialog();
         }
     }
 }
